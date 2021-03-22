@@ -1,4 +1,4 @@
-import { AsyncStorage } from 'react-native'
+import AsyncStorage from '@react-native-community/async-storage'
 import createDataContext from './createDataContext'
 import trackerApi from '../api/tracker'
 import { navigate } from '../navigationRef'
@@ -14,7 +14,7 @@ const authReducer = (state, action) => {
     case 'SIGNOUT':
       return {
         token: null,
-        errorMessage: '' 
+        errorMessage: ''
       }
     case 'ADD_ERROR':
       return {
