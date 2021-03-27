@@ -19,6 +19,7 @@ import { setNavigator } from './src/navigationRef'
 // to navigate through those screens
 // and the stack navigator lets us navigate back and forth betweeen
 
+//this is our route flow
 const switchNavigator = createSwitchNavigator({
   ResolveAuth: ResolveAuthScreen,
   loginFlow: createStackNavigator({
