@@ -5,6 +5,7 @@ import { Context as AuthContext } from '../context/AuthContext'
 import AuthForm from '../components/AuthForm'
 import NavLink from '../components/NavLink'
 
+//Fix the signup
 const SignupScreen = () => {
   const { state, signup, clearErrorMessage } = useContext(AuthContext)
 
